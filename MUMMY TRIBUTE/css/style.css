@@ -390,3 +390,72 @@ font-size:50px;
 color:white;
 cursor:pointer;
 }
+
+/* ORIKI PAGE */
+
+.oriki-page{
+max-width:1100px;
+margin:auto;
+padding:40px 60px 100px;
+}
+
+.oriki-page h1{
+text-align:center;
+color:#d4af37;
+font-size:3.5rem;
+margin-bottom:60px;
+font-family:'Cormorant Garamond', serif;
+}
+
+.oriki-container{
+display:flex;
+flex-direction:column;
+gap:40px;
+}
+
+.oriki-card{
+background:#111;
+border-left:5px solid #d4af37;
+padding:40px;
+border-radius:15px;
+box-shadow:0 8px 25px rgba(0,0,0,0.35);
+}
+
+.oriki-card h2{
+color:#d4af37;
+margin-bottom:25px;
+font-size:2.2rem;
+font-family:'Cormorant Garamond', serif;
+}
+
+.oriki-card p{
+color:#f4e6c1;
+font-size:1.15rem;
+line-height:2.2;
+font-family:'Libre Baskerville', serif;
+}
+
+@media (max-width:768px){
+
+.oriki-page{
+    padding:30px 20px 80px;
+}
+
+.oriki-page h1{
+    font-size:2.5rem;
+}
+
+.oriki-card{
+    padding:25px;
+}
+
+.oriki-card h2{
+    font-size:1.8rem;
+}
+
+.oriki-card p{
+    font-size:1rem;
+    line-height:2;
+}
+
+}
